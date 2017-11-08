@@ -1,5 +1,4 @@
 (function($) {
-
   // Init ScrollMagic
   var controller = new ScrollMagic.Controller();
 
@@ -29,7 +28,7 @@
 
     loadingProgress = (loadedCount / imagesToLoad);
 
-    //console.log(loadingProgress);
+    console.log(loadingProgress);
 
     // GSAP timeline for our progress bar
     TweenLite.to(progressTl, 0.7, {
